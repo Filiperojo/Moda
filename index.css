@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    padding: 20px 0;
+    border-radius: 15px;
+    border-bottom: 1px solid #d5d5d5;
+
+
+}
+
+.logoraizes {
+    width: 20%;
+    height: auto;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+
+.logo {
+    width: 40%;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #f0ebd6;
+}
+
+.menu {
+    padding-top: 12px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    opacity: 66%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-right: 15px;
+
+}
+
+.menu a:hover {
+    opacity: 100%;
+    color: black;
+    transition: 2s;
+
+
+}
+
+section.sobre {
+    position: relative;
+    height: calc(100% - 75px);
+}
+
+.extras {
+    position: absolute;
+    bottom: -200px;
+    right: -300px;
+    width: 720px;
+    height: 720px;
+    border-radius: 50%;
+    background-image: url(/images/ruido.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.sombra {
+    position: absolute;
+    width: 35%;
+    left: 60px;
+    bottom: 200px;
+    margin-left: 45px;
+    height: auto;
+    opacity: 50%;
+}
+
+.mulher {
+    position: absolute;
+    bottom: 200px;
+    width: 50%;
+    max-width: 900px;
+    height: auto;
+}
+
+h1 {
+    padding-top: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 20px;
+    font-size: 250%;
+}
+
+.cultura {
+    background: linear-gradient(to right, #8c3d2e, #662e3b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 50px;
+}
+
+p {
+    margin-top: 15px;
+    max-width: 500px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    border-color: transparent;
+    background-color: #8c3d2e;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: 25x;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    border-color: #8c3d2e;
+    color: #8c3d2e;
+    background-color: transparent;
+    width: 110px;
+    height: 30px;
+    transition: 1s;
+}
+
+.planta1 {
+    opacity: 30%;
+    margin-top: 700px;
+    margin-left: -700px;
+    position: static;
+    width: 40%;
+    height: 30%;
+    transform: rotate(-30deg)
+}
+
+#myDiv {
+    pointer-events: none;
+    /* Impede a interação com o elemento */
+}
