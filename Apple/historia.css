@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    padding: 20px 0;
+    border-radius: 15px;
+    border-bottom: 1px solid #d5d5d5;
+
+
+}
+
+.logo {
+    width: 40%;
+}
+
+.logoraizes {
+    width: 20%;
+    height: auto;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f0ebd6;
+}
+
+.menu {
+    padding-top: 12px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    opacity: 66%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-right: 15px;
+
+
+}
+
+.menu a:hover {
+    opacity: 100%;
+    color: black;
+    transition: 2s;
+
+
+}
+
+h1 {
+    background: linear-gradient(to right, #8c3d2e, #662e3b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 50px;
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    margin: 15px;
+    grid-template-columns: 1fr 1fr;
+    /* Define três colunas com tamanhos iguais */
+    grid-gap: 1px;
+    /* Define um espaçamento de 10px entre os itens */
+    background-color: #ccc;
+    margin-top: -100px;
+}
+
+.grid-item {
+    background-color: #f0ebd6;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*CARD UM*/
+#card {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+
+}
+
+.face {
+    bottom: -650px;
+    width: 405px;
+    height: 503px;
+    display: flex;
+    color: white;
+    position: absolute;
+    border-radius: 30px;
+}
+
+#front {
+    background-image: url(/Imagens/pessoa1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+#front h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#front h4 {
+    margin-top: 36px;
+    margin-left: -62px;
+}
+
+#back {
+    background-image: url(/Images/fundocard1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    justify-content: center;
+
+
+}
+
+#back h3 {
+    background: linear-gradient(to right, #8c3d2e, #662e3b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 25px;
+    position: fixed;
+
+}
+
+p {
+    color: black;
+    width: 230px;
+    max-height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-top: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+
+.texto-principal {
+    text-align: center;
+}
+
+/*CARD DOIS*/
+.card-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+#card2 {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+
+
+}
+
+.face2 {
+    bottom: -650px;
+    width: 405px;
+    height: 503px;
+    display: flex;
+    color: white;
+    position: relative;
+    border-radius: 30px;
+
+}
+
+#front2 {
+    position: fixed;
+    background-image: url(/Imagens/pessoa2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+#front2 h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#front2 h4 {
+    margin-top: 36px;
+    margin-left: -50px;
+}
+
+#back2 {
+    background-image: url(/Images/fundocard1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    position: fixed;
+    justify-content: center;
+}
+
+#back2 h3 {
+    background: linear-gradient(to right, #8c3d2e, #662e3b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 25px;
+    position: fixed;
+
+}
+
+.textocard p {
+    color: black;
+    width: 230px;
+    max-height: 235px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-top: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.flip2 {
+    transform: rotateY(180deg);
+
+}
+
+
+.saibamais {
+    position: fixed;
+    margin-top: 307px;
+    border-color: transparent;
+    background-color: #8c3d2e;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: 25x;
+    cursor: pointer;
+}
+
+.pop-up {
+    position: fixed;
+    background-image: url(/Images/fundocard1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 9999;
+    display: none;
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+    text-align: center;
+
+}
+
+.textopopup p {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    width: 450px;
+    max-height: 450px;
+}
+
+.fechar {
+    position: fixed;
+    border-color: transparent;
+    background-color: #8c3d2e;
+    color: white;
+    border-radius: 15px;
+    width: 30px;
+    height: 25x;
+    cursor: pointer;
+
+}
+
+#myDiv {
+    pointer-events: none;
+    /* Impede a interação com o elemento */
+}
