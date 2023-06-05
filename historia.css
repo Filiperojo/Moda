@@ -113,7 +113,7 @@ h1 {
 }
 
 #front {
-    background-image: url(/Imagens/pessoa1.png);
+    background-image: url(Imagens/pessoa1.png);
     background-repeat: no-repeat;
     background-size: cover;
     transform: rotateY(180deg);
@@ -130,7 +130,7 @@ h1 {
 }
 
 #back {
-    background-image: url(/Images/fundocard1.png);
+    background-image: url(Images/fundocard1.png);
     background-repeat: no-repeat;
     background-size: cover;
     backface-visibility: hidden;
@@ -200,7 +200,7 @@ p {
 
 #front2 {
     position: fixed;
-    background-image: url(/Imagens/pessoa2.png);
+    background-image: url(Imagens/pessoa2.png);
     background-repeat: no-repeat;
     background-size: cover;
     transform: rotateY(180deg);
@@ -217,7 +217,7 @@ p {
 }
 
 #back2 {
-    background-image: url(/Images/fundocard1.png);
+    background-image: url(Images/fundocard1.png);
     background-repeat: no-repeat;
     background-size: cover;
     backface-visibility: hidden;
@@ -267,7 +267,7 @@ p {
 
 .pop-up {
     position: fixed;
-    background-image: url(/Images/fundocard1.png);
+    background-image: url(Images/fundocard1.png);
     background-repeat: no-repeat;
     background-size: cover;
     top: 50%;
